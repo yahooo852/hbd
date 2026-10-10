@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>for birthday girl ❤️</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- BACKGROUND EFFECTS -->
+  <div id="floating-hearts"></div>
+  <div id="sparkles"></div>
+
+  <!-- MUSIC -->
+  <audio id="bgMusic" loop>
+    <source src="music/birthday.mp3" type="audio/mpeg">
+  </audio>
+
+  <button id="musicBtn" class="music-btn" aria-label="Play music">
+    🎵
+  </button>
+
+
+  <!-- =========================
+       OPENING SCREEN
+  ========================== -->
+
+  <section id="opening" class="opening-screen">
+
+    <div class="opening-glow"></div>
+
+    <div class="envelope-container">
+
+      <div class="envelope">
+        <div class="envelope-flap"></div>
+
+        <div class="letter-preview">
+          <span>For Joni💗</span>
+        </div>
+      </div>
+
+    </div>
+
+    <p class="small-label">A little surprise has arrived (for the amazing Joni note eklai open gara ne dd ra vai not allowed hehe😁)...</p>
+
+    <h1>A Birthday card or u can say wish babe <span>Joni</span></h1>
+
+    <p class="opening-text">
+      Someone made this little world just for you.okie .
+    </p>
+
+    <button id="openBtn" class="primary-btn">
+      Open Your Surprise not accutal surprice but recap of our golden memories and some wishes for you.
+      <span>→</span>
+    </button>
+
+  </section>
+
+
+  <!-- =========================
+       MAIN WEBSITE
+  ========================== -->
+
+  <main id="mainSite" class="hidden">
+
+    <!-- NAVIGATION -->
+
+    <nav class="navbar">
+
+      <div class="logo">
+        Joni <span>♡</span>
+      </div>
+
+      <div class="nav-links">
+
+        <a href="#home">Home</a>
+        <a href="#memories">Memories</a>
+        <a href="#wishes">Wishes</a>
+        <a href="#notes">Notes</a>
+        <a href="#surprise">Surprise</a>
+
+      </div>
+
+      <button class="mobile-menu" id="mobileMenu">
+        ☰
+      </button>
+
+    </nav>
+
+
+    <!-- =========================
+         HERO
+    ========================== -->
+
+    <section id="home" class="hero section">
+
+      <div class="hero-particles"></div>
+
+      <div class="hero-content">
+
+        <p class="eyebrow">A little birthday universe ✨</p>
+
+        <h2>
+          Happy Birthday,
+          <span>Joni</span> ❤️
+        </h2>
+
+        <p id="typewriter" class="hero-message"></p>
+
+        <div class="hero-buttons">
+
+          <a href="#memories" class="primary-btn">
+            Explore Your World ma nai hola world tei ne hehe love u
+            <span>↓</span>
+          </a>
+
+          <a href="#surprise" class="secondary-btn">
+            Something Special something something 😁(❁´◡`❁)
+          </a>
+
+        </div>
+
+      </div>
+
+
+      <!-- HERO PHOTO -->
+
+      <div class="hero-photo-wrap">
+
+        <div class="orbit orbit-1"></div>
+        <div class="orbit orbit-2"></div>
+
+        <div class="hero-photo">
+
+          <img
+            src="C:\Users\Yambd\OneDrive\Desktop\p j vibe web\WhatsApp Image 2026-08-28 at 7.35.05 PM.jpeg"
+            alt="Jonisha"
+          >
+
+          <div class="photo-glow"></div>
+
+        </div>
+
+        <div class="floating-chip chip-one">
+          ✨ Beautiful
+        </div>
+
+        <div class="floating-chip chip-two">
+          💗 Special
+        </div>
+
+        <div class="floating-chip chip-three">
+          🌸 Joni
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         LITTLE UNIVERSE
+    ========================== -->
+
+    <section class="universe section">
+
+      <div class="section-heading">
+
+        <p class="eyebrow">A world made for you</p>
+
+        <h2>
+          Today, everything
+          <span>celebrates you.</span>
+        </h2>
+
+        <p>
+          A few little things that make you unforgettable.
+        </p>
+
+      </div>
+
+
+      <div class="universe-grid">
+
+        <div class="universe-card">
+          <div class="icon">😊</div>
+          <h3>Your Smile</h3>
+          <p>
+            The kind of smile that makes an ordinary moment feel brighter.tate fida xai haina hai tero smile ma xai temro caring bani ma honi dherai ta.         </p>
+        </div>
+
+        <div class="universe-card">
+          <div class="icon">✨</div>
+          <h3>Your Energy</h3>
+          <p>
+            You have a way of making moments feel more alive.yess jaba ma ta sanga hunxu i forget everything and just enjoy the moment with you.
+          </p>
+        </div>
+
+        <div class="universe-card">
+          <div class="icon">🌸</div>
+          <h3>Your Personality </h3>
+          <p>
+            Completely yourself, and that's exactly what makes you special.one of the best things about you is that you are always yourself k i like this about you hehe 😘
+          </p>
+        </div>
+
+        <div class="universe-card">
+          <div class="icon">💗</div>
+          <h3>Simply You</h3>
+          <p>
+            No explanation needed. Joni is just Joni.aaba aaru ta vannu hai temro bara lovee uu laa 💕
+          </p>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         MEMORIES
+    ========================== -->
+
+    <section id="memories" class="memories section">
+
+      <div class="section-heading">
+
+        <p class="eyebrow">Little moments</p>
+
+        <h2>
+          Our
+          <span>Memories</span>
+        </h2>
+
+        <p>
+          Some moments deserve their own little corner of the universe.hami 1st ta kaile kaile bacha mai vetya ho tara i dont remember good memries hai 
+          1st memory vanya kai holi hola haina ho nai maja aako theyo and i want show gratudw to wards pitey i think tesle garda nai hamro convo suru vako 
+          hola. malai k yad xa vani tesle vanya paxi i followd u hai.
+        </p>
+
+      </div>
+
+
+      <div class="gallery">
+
+        <div class="photo-card large">
+          <img src="photos/joni1.jpg" alt="Joni memory">
+          <div class="photo-overlay">
+            <span>Memory 01 or tihar hehe </span>
+            <p>A moment worth remembering forever.Hami 1st time nai tihar ma vetya hola shayad holi paxi aani sangai pataka padkauna gayam 
+              deusi khelyam maja aayo but tyo vai garda xai dar lagya theyo hai 😭😭
+            </p>
+          </div>
+        </div>
+
+        <div class="photo-card">
+          <img src="photos/joni2.jpg" alt="Joni memory">
+          <div class="photo-overlay">
+            <span>Memory weekend </span>
+            <p>This one still makes me smile.k vannu aaba yo ta holi nai ho hehe tihar paxi holi mao vetya hola temro
+              sathi haru gaya paxi malai call garyau aani khelyam maja aayo teme sanga khelna tara tyo side ko phuchey haru le xai lang hanya hai.
+              navaya ta maja nai ho 😁😊
+            </p>
+          </div>
+        </div>
+
+        <div class="photo-card">
+          <img src="photos/joni3.jpg" alt="Joni memory">
+          <div class="photo-overlay">
+            <span>Memory 3 bidaaa yahooo </span>
+            <p>One of those perfect little moments.balla bala 10 ko bida vayo aani teme le kun din po ho jam vanyau 
+              ma pani clg visit ma janxu vanara aaya and then i gayam funpark gayam haha maja aayo aani belka ghar ma maile xai khatra gali khaya .
+            </p>
+          </div>
+        </div>
+
+        <div class="photo-card wide">
+          <img src="photos/joni4.jpg" alt="Joni memory">
+          <div class="photo-overlay">
+            <span>Memory 04</span>
+            <p>Some memories deserve to stay forever.</p>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         WHY JONI IS SPECIAL
+    ========================== -->
+
+    <section class="special section">
+
+      <div class="section-heading">
+
+        <p class="eyebrow">A few words for you</p>
+
+        <h2>
+          What makes
+          <span>Joni</span> special?
+        </h2>
+
+      </div>
+
+
+      <div class="special-grid">
+
+        <article class="special-card">
+          <span>01</span>
+          <h3>Your Heart</h3>
+          <p>
+            There is something beautiful about the way you care about people.
+          </p>
+        </article>
+
+        <article class="special-card">
+          <span>02</span>
+          <h3>Your Laugh</h3>
+          <p>
+            One of those little things that can completely change the mood.
+          </p>
+        </article>
+
+        <article class="special-card">
+          <span>03</span>
+          <h3>Your Presence</h3>
+          <p>
+            You don't have to try hard to make a moment memorable.
+          </p>
+        </article>
+
+        <article class="special-card">
+          <span>04</span>
+          <h3>Being You</h3>
+          <p>
+            The best thing about you is simply that you're you.
+          </p>
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         WISH WALL
+    ========================== -->
+
+    <section id="wishes" class="wishes section">
+
+      <div class="section-heading">
+
+        <p class="eyebrow">Messages for Joni</p>
+
+        <h2>
+          A Wall of
+          <span>Love 💌</span>
+        </h2>
+
+        <p>
+          Birthday wishes from the people who care about you.
+        </p>
+
+      </div>
+
+
+      <div class="wish-form">
+
+        <input
+          type="text"
+          id="wishName"
+          placeholder="Your name"
+          maxlength="30"
+        >
+
+        <textarea
+          id="wishText"
+          placeholder="Write a birthday wish for Joni..."
+          maxlength="180"
+        ></textarea>
+
+        <button id="wishBtn" class="primary-btn">
+          Add Your Wish 💗
+        </button>
+
+      </div>
+
+
+      <div id="wishWall" class="wish-wall">
+
+        <div class="wish-card">
+          <span class="wish-heart">♡</span>
+          <p>
+            Happy Birthday Joni! May your year be filled with happiness,
+            laughter and beautiful memories.
+          </p>
+          <strong>— Someone who cares 💗</strong>
+        </div>
+
+        <div class="wish-card">
+          <span class="wish-heart">♡</span>
+          <p>
+            Keep smiling, keep being yourself and keep making the world
+            a little brighter.
+          </p>
+          <strong>— With love ✨</strong>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         SECRET NOTES
+    ========================== -->
+
+    <section id="notes" class="notes section">
+
+      <div class="section-heading">
+
+        <p class="eyebrow">Something personal</p>
+
+        <h2>
+          Secret
+          <span>Notes 💌</span>
+        </h2>
+
+        <p>
+          Open one whenever you need a little reminder.
+        </p>
+
+      </div>
+
+
+      <div class="notes-grid">
+
+        <button
+          class="note-envelope"
+          data-note="smile"
+        >
+          <div>💌</div>
+          <span>Open when you need a smile</span>
+        </button>
+
+        <button
+          class="note-envelope"
+          data-note="bad"
+        >
+          <div>💌</div>
+          <span>Open when you're having a bad day</span>
+        </button>
+
+        <button
+          class="note-envelope"
+          data-note="remember"
+        >
+          <div>💌</div>
+          <span>Open when you want to remember today</span>
+        </button>
+
+        <button
+          class="note-envelope"
+          data-note="special"
+        >
+          <div>💌</div>
+          <span>Open when you need encouragement</span>
+        </button>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         SURPRISE
+    ========================== -->
+
+    <section id="surprise" class="surprise section">
+
+      <div class="surprise-content">
+
+        <p class="eyebrow">One last thing...</p>
+
+        <h2>
+          Joni...
+          <br>
+          <span>Don't click this 👀</span>
+        </h2>
+
+        <p>
+          Seriously.
+          <br>
+          It's probably nothing.
+        </p>
+
+        <button id="surpriseBtn" class="surprise-button">
+          Don't Click This
+        </button>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         FINAL SURPRISE
+    ========================== -->
+
+    <section id="finalSurprise" class="final-surprise hidden">
+
+      <div id="confetti"></div>
+
+      <div class="stars"></div>
+
+      <p class="eyebrow">Okay... you clicked it.</p>
+
+      <h2>
+        HAPPY BIRTHDAY
+        <span>JONI ❤️</span>
+      </h2>
+
+      <!-- CAKE -->
+
+      <div id="cake" class="cake-container">
+
+        <div class="cake">
+
+          <div class="cake-top"></div>
+
+          <div class="cake-body">
+
+            <div class="cake-decoration"></div>
+
+          </div>
+
+          <div class="cake-plate"></div>
+
+          <div class="candle candle-one">
+            <div class="flame"></div>
+          </div>
+
+          <div class="candle candle-two">
+            <div class="flame"></div>
+          </div>
+
+          <div class="candle candle-three">
+            <div class="flame"></div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <p class="make-wish">
+        Tap the cake and make a wish ✨
+      </p>
+
+      <div id="finalMessage" class="final-message hidden">
+
+        <h3>Dear Joni,</h3>
+
+        <p>
+          I hope this birthday reminds you just how special,
+          appreciated and loved you are.
+        </p>
+
+        <p>
+          Keep smiling, keep being yourself,
+          and keep making ordinary moments feel extraordinary.
+        </p>
+
+        <p class="signature">
+          Happy Birthday, Jonisha Nas. ❤️
+        </p>
+
+      </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+
+    <footer class="footer">
+
+      <div class="footer-heart">♡</div>
+
+      <h3>Made specially for Joni</h3>
+
+      <p>
+        A tiny corner of the internet made with a lot of love.
+      </p>
+
+      <span>october 20, 2026</span>
+
+    </footer>
+
+  </main>
+
+
+  <!-- NOTE MODAL -->
+
+  <div id="noteModal" class="modal hidden">
+
+    <div class="modal-box">
+
+      <button id="closeModal" class="close-modal">
+        ×
+      </button>
+
+      <div class="modal-icon">💌</div>
+
+      <h3 id="modalTitle">For Joni</h3>
+
+      <p id="modalText"></p>
+
+      <button id="modalHeart" class="primary-btn">
+        💗
+      </button>
+
+    </div>
+
+  </div>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
